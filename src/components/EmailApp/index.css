@@ -1,0 +1,27 @@
+.email-app {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+    /* background-color: rgba(255,255,255,0.5); */
+}
+
+.part-1{
+    width: 30%;
+}
+  
+  @media (max-width: 768px) {
+    .email-app {
+      flex-direction: column;
+    }
+  
+    .email-list, .email-detail {
+      width: 100%;
+    }
+  }
+
+.home{
+    min-height: 100vh;
+    /* background-image: url("https://res.cloudinary.com/dpfnim7rk/image/upload/v1730524690/pexels-sebastian-189349_aiogsp.jpg");
+    background-size: cover; */
+}
